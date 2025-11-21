@@ -199,7 +199,7 @@ function showNotification(message) {
 function showMusicSuggestion() {
     const suggestion = document.createElement('div');
     suggestion.className = 'notification';
-    suggestion.innerHTML = '💝 Que tal ouvir nossa música especial?';
+    suggestion.innerHTML = '💝 Que tal ouvir uma musica ?';
     suggestion.style.cursor = 'pointer';
     suggestion.style.background = 'rgba(255, 85, 0, 0.9)';
     
@@ -226,4 +226,5 @@ console.log(`
   Música: Perfect - Ed Sheeran
   Player: SoundCloud com controles personalizados
 ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+
 `);
