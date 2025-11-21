@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Você, Meu Amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Para Você, Com Todo Meu Amor</h1>
+        
+        <div class="envelope" id="envelope">
+            <div class="envelope-back"></div>
+            <div class="envelope-front">
+                <div class="heart">❤️</div>
+                <p>Clique para abrir</p>
+            </div>
+            <div class="envelope-flap"></div>
+            <div class="letter" id="letter">
+                <div class="message">
+                    <p>Minha pequena,</p>
+                    <p>Escrevo esta carta com o coração apertado, mas cheio de esperança.</p>
+                    <p>Sei que temos passado por momentos difíceis e que minhas ações te magoaram profundamente. Por isso, quero que saiba o quanto lamento cada momento de dor que causei a você.</p>
+                    <p>Refleti muito sobre tudo o que aconteceu e reconheço meus erros. Estou comprometido em mudar e ser a pessoa que você merece, alguém que te respeita, valoriza e coloca seu bem-estar em primeiro lugar.</p>
+                    <p>Você é a pessoa mais importante da minha vida, e percebo agora como fui idiota todo esse tempo. Prometo fazer de cada dia uma oportunidade para demonstrar o quanto você significa para mim.</p>
+                    <p>Não espero que você me perdoe instantaneamente, mas peço que me dê uma chance para provar que posso ser melhor. Estou disposto a trabalhar todos os dias para reconstruir a confiança e o amor que compartilhamos.</p>
+                    <p>Eu te amo mais do que palavras podem expressar.</p>
+                </div>
+                <div class="signature">
+                    <p>Com todo meu amor,</p>
+                    <p>Victor Stoquini</p>
+                </div>
+            </div>
+        </div>
+        
+        <button class="btn" id="specialBtn">Uma Promessa Especial</button>
+        
+        <div class="flowers">
+            <div class="flower">🌹</div>
+            <div class="flower">🌹</div>
+            <div class="flower">🌹</div>
+        </div>
+        
+        <div class="music-player">
+            <div class="music-header">
+                <div class="music-controls">
+                    <button class="music-btn" id="playBtn">▶️</button>
+                    <span class="music-title">Perfect - Ed Sheeran</span>
+                </div>
+                <div class="volume-controls">
+                    <button class="volume-btn" id="volumeBtn">🔊</button>
+                    <div class="volume-slider-container" id="volumeSliderContainer">
+                        <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="70">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Player do SoundCloud -->
+            <div class="soundcloud-player">
+                <iframe id="soundcloudIframe" width="100%" height="166" scrolling="no" frameborder="no" 
+                        src="https://w.soundcloud.com/player/?url=https://soundcloud.com/arviandwi/perfect-edsheeran&color=ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false"></iframe>
+            </div>
+        </div>
+        
+        <footer>
+            Feito com ❤️ especialmente para você meu
+        </footer>
+    </div>
+
+    <!-- SoundCloud Widget API -->
+    <script src="https://w.soundcloud.com/player/api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
